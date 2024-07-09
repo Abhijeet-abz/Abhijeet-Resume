@@ -4,17 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Hobbies</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Chosen font family */
+            background: linear-gradient(to bottom right, #5f2c82, #49a09d); /* Gradient background matching resume color scheme */
+            color: #333333; /* Dark black text color */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 400px;
+            background-color: rgba(255, 255, 255, 0.8); /* Light opaque background for readability */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        h1 {
+            color: #1a5276; /* Blue color for heading */
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #dddddd; /* Light gray top border */
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left; /* Align list items to the left */
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1> Hobbies</h1><hr/>
-    <ul>
-        <li>Reading</li>
-        <li>Coding</li>
-        <li>Teaching </li>
-        <li>Solving Code Problems</li>
-        <li>Singing</li>
-        <li>volunteering at animal shelters.</li>
-        <li>Experimenting cooking receipes</li>
-    </ul>
+    <div class="container">
+        <h1>Hobbies</h1>
+        <hr>
+        <ul>
+            <li>Reading</li>
+            <li>Coding</li>
+            <li>Teaching</li>
+            <li>Solving Code Problems</li>
+            <li>Singing</li>
+            <li>Volunteering at animal shelters</li>
+            <li>Experimenting with cooking recipes</li>
+        </ul>
+    </div>
 </body>
 </html>
