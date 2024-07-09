@@ -7,10 +7,22 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Chosen font family */
-            background: linear-gradient(to bottom right, #5f2c82, #49a09d); /* Gradient background */
+            background: linear-gradient(to bottom, #ffcc00, #ff9900); /* Gradient background with orange and yellow */
             color: #333333; /* Dark black text color */
-            margin: 20px;
+            margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 400px;
+            background-color: rgba(255, 255, 255, 0.8); /* Light opaque background for readability */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
         }
         h1 {
             color: #1a5276; /* Blue color for heading */
@@ -23,6 +35,7 @@
         ul {
             list-style-type: none;
             padding: 0;
+            text-align: left; /* Align list items to the left */
         }
         li {
             margin-bottom: 10px;
@@ -37,12 +50,14 @@
     </style>
 </head>
 <body>
-    <h1>Hit Me Up via These</h1>
-    <hr>
-    <ul>
-        <li>Email: abhijeetuprety19@gmail.com</li>
-        <li>Phone No.: 6361591419</li>
-        <li>Github: <a href="https://github.com/Abhijeet-abz">https://github.com/Abhijeet-abz</a></li>
-    </ul>
+    <div class="container">
+        <h1>Hit Me Up via These</h1>
+        <hr>
+        <ul>
+            <li>Email: abhijeetuprety19@gmail.com</li>
+            <li>Phone No.: 6361591419</li>
+            <li>Github: <a href="https://github.com/Abhijeet-abz">https://github.com/Abhijeet-abz</a></li>
+        </ul>
+    </div>
 </body>
 </html>
