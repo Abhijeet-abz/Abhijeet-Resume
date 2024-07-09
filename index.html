@@ -4,62 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Chosen font family */
+            line-height: 1.6;
+            background: linear-gradient(to bottom right, #5f2c82, #49a09d); /* Gradient background with cool colors */
+            color: #333333; /* Default text color */
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.8); /* Light opaque background for readability */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #1a5276; /* Blue color for headings */
+            border-bottom: 2px solid #cccccc; /* Light gray bottom border */
+            padding-bottom: 5px;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 24px;
+            margin-top: 30px;
+        }
+        h3 {
+            font-size: 20px;
+            margin-top: 25px;
+        }
+        p, ul, ol {
+            color: #333333; /* Dark black color for paragraphs and lists */
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #dddddd; /* Light gray top border */
+            margin: 20px 0;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-   <img src="./IMG_5664.JPG" height="170"/>
-    <h1>Summary</h1>
-    <p> 
-       Dedicated and knowledgeable professional with a strong background in Artificial Intelligence, Machine Learning, and Full Stack Development. Passionate about teaching and mentoring students, and committed to fostering a collaborative and innovative learning environment.
-    </p>
-    <hr/>
-    <h1>Qualifications:</h1>
-    <ul>
-        <li>Masters Of Computer Applications(M.C.A) <br/>
-            East West College Of management<br/>
-            2020-2022<br/>
-            Grade: A+ <br/>PC: 8.13</li><br/>
-        
-        <li>Bachelor of Computer Applications(B.C.A)<br/>
-            Acharya Institutes of Graduate Studies.<br/>
-            2017-2020<br/>
-            Grade: A <br/>PC: 7.23</li><br/>
-        
-        <li>10+2<br/>
-            Human Resource Development Academy(H.R.D.A) <br/> PC: 63%
-        </li><br/>
-        
-        <li>10th<br/>
-            The Froebel English School <br/>PC: 69.4</li>
-    </ul>
-    <hr/>
-    <h1>Work Experience:</h1>
-    <ul>
-        <li>Assistant Professor
-East West College of Management, Bengaluru, India
-Apr 2023 - Present
-- Teach undergraduate courses in Computer Science, specializing in AI and Machine Learning.
-- Developed and implemented a new curriculum for Data Structures and Algorithms, improving student performance by 15%.
-- Conducted workshops and seminars on emerging technologies such as Machine Learning and Data Mining.
-- Mentored students on academic projects and research initiatives.
-</li>
-    </ul><hr/>
-    <h1>Skills:</h1>
-    <ol>
-        <li>Programming Languages:
-- Python, JavaScript, HTML, CSS, PHP, SQL, C, C++
-</li>
-        <li>Technologies and Tools:
-- TensorFlow, Keras, Data Mining, Machine Learning, Full Stack Development, MS Excel, Word, PowerPoint
- </li>
-        <li>Soft Skills:
-- Time Management, Leadership, Problem-Solving, Team Collaboration, Effective Communication
-</li>
-    
-    </ol><hr/>
-
-    <a href="./Contact me.html">Contact Me</a>
-    <a href="./hobbies.html">Hobbies</a>
-    <h1>References</h1>
-    <p>Available upon request.</p>
+    <div class="container">
+        <img src="./IMG_5664.JPG" height="170" alt="Profile Picture">
+        <h1>Summary</h1>
+        <p>
+            Dedicated and knowledgeable professional with a strong background in Artificial Intelligence, Machine Learning, and Full Stack Development. Passionate about teaching and mentoring students, and committed to fostering a collaborative and innovative learning environment.
+        </p>
+        <hr>
+        <h2>Qualifications:</h2>
+        <ul>
+            <li>
+                Masters Of Computer Applications(M.C.A) <br>
+                East West College Of Management<br>
+                2020-2022<br>
+                Grade: A+ <br>PC: 8.13
+            </li>
+            <li>
+                Bachelor of Computer Applications(B.C.A)<br>
+                Acharya Institutes of Graduate Studies.<br>
+                2017-2020<br>
+                Grade: A <br>PC: 7.23
+            </li>
+            <li>
+                10+2<br>
+                Human Resource Development Academy(H.R.D.A) <br> PC: 63%
+            </li>
+            <li>
+                10th<br>
+                The Froebel English School <br>PC: 69.4
+            </li>
+        </ul>
+        <hr>
+        <h2>Work Experience:</h2>
+        <ul>
+            <li>
+                <strong>Assistant Professor</strong><br>
+                East West College of Management, Bengaluru, India<br>
+                Apr 2023 - Present<br>
+                - Teach undergraduate courses in Computer Science, specializing in AI and Machine Learning.<br>
+                - Developed and implemented a new curriculum for Data Structures and Algorithms, improving student performance by 15%.<br>
+                - Conducted workshops and seminars on emerging technologies such as Machine Learning and Data Mining.<br>
+                - Mentored students on academic projects and research initiatives.
+            </li>
+        </ul>
+        <hr>
+        <h2>Skills:</h2>
+        <ul>
+            <li>Programming Languages:
+                <ul>
+                    <li>Python, JavaScript, HTML, CSS, PHP, SQL, C, C++</li>
+                </ul>
+            </li>
+            <li>Technologies and Tools:
+                <ul>
+                    <li>TensorFlow, Keras, Data Mining, Machine Learning, Full Stack Development, MS Excel, Word, PowerPoint</li>
+                </ul>
+            </li>
+            <li>Soft Skills:
+                <ul>
+                    <li>Time Management, Leadership, Problem-Solving, Team Collaboration, Effective Communication</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <a href="./Contact me.html">Contact Me</a>
+        <a href="./hobbies.html">Hobbies</a>
+        <h2>References</h2>
+        <p>Available upon request.</p>
+    </div>
 </body>
 </html>
